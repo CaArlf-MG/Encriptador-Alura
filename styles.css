@@ -1,0 +1,350 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .montserrat-texto1 {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: auto;
+      font-style: normal;
+    }
+    
+
+    .position-absolute {
+      position: absolute !important;
+      
+    }
+
+    .header{
+      position: relative;
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 1.3rem;
+      background: #515e6a;
+      display: flex;
+      flex: auto;
+      flex-direction: row;
+      gap: 20px;
+      align-content:flex-start;   
+}
+
+    .aluraLogo{
+      width: 50px;
+    }
+
+    .head{
+      color: #fff;
+      text-decoration: none;
+      padding: 0.3%;
+    }
+
+    h1{
+      text-align: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 2.8rem;
+      padding: 6px;
+      background: #f3f5fc;
+    }
+
+    .subtitulo{
+      text-align: left;
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 1.8rem;
+      margin-left: 3%;
+    }
+
+    .contenedor {
+      position: relative;
+      width: auto;
+      height: 90vh;
+      background: #f3f5fc;
+    }
+    
+    .textareaL {
+      position: absolute;
+      width: 42%;
+      height: 60%;
+      left: 12%;
+      top: 15%;
+      border: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 150%;
+      background-color: #f3f5fc;
+    }
+    
+    .textareaL::placeholder {
+      color: #0a3871;
+      opacity: 0.7;
+      font-size: 24px;
+    }
+    
+    .textareaL:focus,
+    .textareaL:active {
+      border: none;
+      outline: none;
+    }
+
+    .textareaR {
+      position: absolute;
+      width: 80%;
+      height: 70%;
+      left: 12%;
+      top: 15%;
+      border: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 150%;
+      
+    }
+    .textareaR:focus,
+    .textareaR:active {
+      border: none;
+      outline: none;
+    }
+    
+    .condiciones {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+      position: absolute;
+      width: 80%;
+      left: 12%;
+      top: 80%;
+    }
+    
+    .areaDeBotones {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 1% 0;
+      position: absolute;
+      width: 80%;
+      left: 12%;
+      top: 82%;
+    }
+    
+    .botonEncriptar {
+      align-items: center;
+      justify-content: center;
+      padding: 2%;
+      gap: 8px;
+      width: 25%;
+      background-color: #0a3871;
+      border-radius: 24px;
+      font-family: "Inter";
+      font-size: 24px;
+      line-height: 19px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .botonDesencriptar {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 2%;
+      gap: 8px;
+      width: 25%;
+      background: #d8dfe8;
+      border: 1px solid #0a3871;
+      border-radius: 24px;
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 19px;
+      text-align: center;
+      color: #0a3871;
+    }
+    
+    .botonDesencriptar:hover,
+    .botonEncriptar:hover {
+      margin: 0.3%;
+      width: 24.5%;
+      padding: 1.8%;
+    }
+    
+    .contenedorDerecho {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      width: 30%;
+      height: 90%;
+      left: 60%;
+      top: 5%;
+      background: #fff;
+      box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+      border-radius: 32px;
+    }
+
+    .personitas{
+     z-index: 1;
+     width: 100%;
+     height:fit-content;
+     align-self: center ;
+     
+    }
+    
+    .areaDebotonCopiar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 1% 0;
+      position: absolute;
+      width: 80%;
+      top: 88%;
+    }
+    
+    .botonCopiar {
+      align-items: center;
+      justify-content: center;
+      padding: 2%;
+      gap: 8px;
+      width: 25%;
+      background-color: #0a3871;
+      border-radius: 24px;
+      font-family: "Inter";
+      font-size: 15px;
+      line-height: 19px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .botonCopiar:hover {
+      margin: 0.3%;
+      width: 24.5%;
+      padding: 1.8%;
+    }
+    
+    .footer{
+      padding: 0%;
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 1.5rem;
+      background: #515e6a;
+      color: #d8dfe8;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .enlacesPersonalesLinks{
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .enlacesPersonales{
+      text-align: center;
+    }
+
+    .autor{
+      padding-top: 5%;
+      align-items: center;
+    }
+
+   
+    
+    /* Diseno responsivo */
+    @media (max-width: 57.5em) {
+      .subtitulo{
+        width: 100%;
+        font-size: 20px;
+      }
+      h1{
+        font-size: 24px;
+      }
+      .aluraLogo{
+        max-width: 25px;
+      }
+      .head{
+        font-size: 10px;
+      }
+
+      .contenedor {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .contenedorDerecho {
+        width: 100%;
+      }
+    
+      .textareaL {
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+      }
+
+      .textareaL::placeholder {
+        color: #0a3871;
+        opacity: 0.7;
+        font-size: 20px;
+      }
+
+      .condiciones {
+        width: 80%;
+        left: 10%;
+        top: 67%;
+      }
+     
+      .areaDeBotones {
+        width: 80%;
+        left: 10%;
+        top: 70%;
+        
+      }
+
+      .botonEncriptar,
+      .botonDesencriptar {
+        width: 48%;
+        border-radius: 16px;
+        font-size: 18px;
+      }
+
+      .botonEncriptar:hover,
+      .botonDesencriptar:hover {
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+      }
+
+      .contenedorDerecho {
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+      }
+      
+      .footer{
+        width: 100%;
+        font-size: 20px;     
+       
+      }
+
+      .personitas{
+        max-height: 0%;
+        
+       }
+
+     
+
+     
+    } 
+    

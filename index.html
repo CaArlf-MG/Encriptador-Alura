@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" class=""></script>
+
+</head>
+<body class="mainBody">
+    <header class="header">
+        <img class="aluraLogo" src="./assets/aluraLogo.png">
+        <p class="head">Encriptador Alura</p>
+    </header>
+    <main>
+        <h1 class="titulo">
+            Encriptador 
+           </h1>
+<div class="contenedor">
+    <div class="contenedorIzquierdo">
+        
+            
+               <p class="subtitulo">Escriba el texto que desea encriptar/desencriptar:</p>
+        <div class="flexIzquierdo" id="areaDeInputybotones">
+            <div class="areadeTextoInput" id="areadeTextoInput">
+                <div class="soloTextareaL">
+                <textarea class="textareaL" id="textareaInput" placeholder="Ingrese el texto aqui" cols="30" rows="10" ></textarea>
+                <p class="condiciones" id="condiciones">El texto debera estar solo en minusculas y sin acentos.</p>
+                </div>
+                <div class="areaDeBotones" id="areaDeBotones">
+                    
+                    <button class="botonEncriptar" id="botonEncriptar" onclick="encriptador()">Encriptar</button>
+                    <button class="botonDesencriptar" id="botonDesencriptar" onclick="desencriptador()" >Desencriptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+               
+        
+        <div class="contenedorDerecho" id="areaDeOutput"> 
+            <img class="personitas" id="personitas" src="./assets/personitas.png" >
+            <textarea class="textareaR" id="textareaOutput" ></textarea>
+            <div class="areaDebotonCopiar">
+            <button class="botonCopiar" id="botonCopiar" onclick="copiar()">Copiar</button>
+            <p id="feedback"></p>
+            </div>
+        </div>
+</div>
+    </main>
+    <footer class="footer">
+        
+        <div class="enlacesPersonales">
+            <h2 class="enlacesPersonalesTitulo"><strong>Accede a mis redes</strong></h2>
+            <a class="enlacesPersonalesLinks" href="https://github.com/CaArlf-MG">
+                <img src="./assets/github.png">
+                Github
+            </a>
+            <a class="enlacesPersonalesLinks" href="https://linkedin.com/in/">
+                <img src="./assets/linkedin.png">
+                Linkedin
+        </div>
+        <p class="autor">Desarrollado por: Carlos Mendoza G.</p>
+    </footer>
+</body>
+</html>
