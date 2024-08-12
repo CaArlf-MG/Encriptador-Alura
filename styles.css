@@ -111,6 +111,10 @@
       outline: none;
     }
     
+    .alertaIcono{
+      width: 16px;
+    }
+
     .condiciones {
       display: flex;
       flex-direction: row;
